@@ -1,7 +1,23 @@
-function tocaSomBolinha(){
+function tocaSom(idelementoaudio){
      document.querySelector("#som_tecla_bolinha").play();
 }
   const ListadeTeclas = document.querySelectorAll(".tecla");
+  let contador = 0; 
 
-  ListadeTeclas[0].onclick = tocaSomBolinha;
+ while (contador < ListadeTeclas.length) {
+
+ }
+   const efeito = ListadeTeclas[contador].classList[1]; 
+   const idAudio = "som_"+efeito; 
+   ListadeTeclas[contador].onclik = function
+   tocaSom(idAudio) {
+     
+   }
+   ListadeTeclas[contador].onclik = tocaSomBolinha;
+     contador = contador + 1;
+     console.log(contador);{
+ }
+
+  
+
 
